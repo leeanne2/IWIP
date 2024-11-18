@@ -1,0 +1,1406 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Kenneth D Skinner</origin>
+        <origin>Erin M Murray</origin>
+        <origin>Daniel L Murray</origin>
+        <pubdate>20240917</pubdate>
+        <title>Point-Source Nutrient Loads to Streams of the Conterminous United States, 1999-2020</title>
+        <geoform>comma-delimited digital files (some compressed)</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P13DL6P9</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset was developed to estimate point-source total nitrogen and phosphorous loads to streams in the conterminous United States (U.S.) from December 1999 to November 2020. This dataset uses discharge and concentration information from point sources to streams in the conterminous United States from the U.S. Environmental Protection Agency (EPA) Integrated Compliance Information System - Permit Compliance System (ICIS-PCS) database. Nutrient concentrations were used to calculate point source loads. However, measured concentration data was often not available so “typical pollutant concentrations” (TPCs) were developed using concentration data from the same facility but a different time or from similar facilities. A new method for calculating TPCs was implemented using concentration data from other time periods to calculate TPCs. This dataset contains the EPA ICIS-PCS National Pollutant Discharge Elimination System (NPDES) facility, flow, and concentration data and updates or changes to the data, along with the TPC values and calculated total nitrogen and phosphorous loads.</abstract>
+      <purpose>These datasets estimate total phosphorous and total nitrogen loads to streams in the conterminous United States for EPA NPDES major point-source facilities and NPDES minor wastewater treatment facilities discharging to streams from 1999 to 2020. These point-source datasets will be used as nutrient inputs to a conterminous US SPARROW model (Schwarz and others, 2006). This work was conducted as part of the U.S. Geological Survey's (USGS) Integrated Water Availability Assessments (IWAAs) Program, which examines the spatial and temporal distribution of water quantity and quality in both surface and groundwater, as related to human and ecosystem needs and as affected by human and natural influences. Funding was provided by the National Water Quality Program.</purpose>
+      <supplinf>The total nitrogen and phosphorus load files are compressed to reduce size.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19990101</begdate>
+          <enddate>20201130</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-124.6625</westbc>
+        <eastbc>-66.9830</eastbc>
+        <northbc>48.9771</northbc>
+        <southbc>25.7333</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>SPAtially Referenced Regressions On Watershed attributes (SPARROW)</themekey>
+        <themekey>improvement of scientific data usability</themekey>
+        <themekey>aquaculture</themekey>
+        <themekey>waste treatment and disposal</themekey>
+        <themekey>contamination and pollution</themekey>
+        <themekey>nutrient content</themekey>
+        <themekey>wastewater discharge</themekey>
+        <themekey>National Hydrography Dataset</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:658c8545d34e3265ab1454cd</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Alabama</placekey>
+        <placekey>Arkansas</placekey>
+        <placekey>Arizona</placekey>
+        <placekey>District of Columbia</placekey>
+        <placekey>California</placekey>
+        <placekey>Colorado</placekey>
+        <placekey>Connecticut</placekey>
+        <placekey>Delaware</placekey>
+        <placekey>Florida</placekey>
+        <placekey>Georgia</placekey>
+        <placekey>Idaho</placekey>
+        <placekey>Illinois</placekey>
+        <placekey>Indiana</placekey>
+        <placekey>Iowa</placekey>
+        <placekey>Kansas</placekey>
+        <placekey>Kentucky</placekey>
+        <placekey>Louisiana</placekey>
+        <placekey>Maine</placekey>
+        <placekey>Maryland</placekey>
+        <placekey>Massachusetts</placekey>
+        <placekey>Michigan</placekey>
+        <placekey>Minnesota</placekey>
+        <placekey>Mississippi</placekey>
+        <placekey>Missouri</placekey>
+        <placekey>Montana</placekey>
+        <placekey>Nebraska</placekey>
+        <placekey>Nevada</placekey>
+        <placekey>New Hampshire</placekey>
+        <placekey>New Jersey</placekey>
+        <placekey>New Mexico</placekey>
+        <placekey>New York</placekey>
+        <placekey>North Carolina</placekey>
+        <placekey>North Dakota</placekey>
+        <placekey>Ohio</placekey>
+        <placekey>Oklahoma</placekey>
+        <placekey>Oregon</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>Rhode Island</placekey>
+        <placekey>South Carolina</placekey>
+        <placekey>South Dakota</placekey>
+        <placekey>Tennessee</placekey>
+        <placekey>Texas</placekey>
+        <placekey>Utah</placekey>
+        <placekey>Vermont</placekey>
+        <placekey>Virginia</placekey>
+        <placekey>Washington</placekey>
+        <placekey>West Virginia</placekey>
+        <placekey>Wisconsin</placekey>
+        <placekey>Wyoming</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Kenneth D Skinner</cntper>
+          <cntorg>NORTHWEST REGION</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Mail Stop 939, 230 Collins Road</address>
+          <city>Boise</city>
+          <state>ID</state>
+          <postal>83702</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>208-387-1343</cntvoice>
+        <cntemail>kskinner@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://www.sciencebase.gov/catalog/file/get/5ba54362e4b08583a5c9d4e5?f=__disk__ee%2F46%2F80%2Fee4680723e2b0d4283616e6cc1f8b976b764b5b1&amp;allowOpen=true</browsen>
+      <browsed>Major point-source facilities and minor wastewater treatment facilities in the conterminous United States and SPARROW regions.</browsed>
+      <browset>JPG</browset>
+    </browse>
+    <datacred>U.S. Geological Survey, Water Resources Mission Area.  SPARROW modeling: Estimating contaminant transport  https://www.usgs.gov/mission-areas/water-resources/science/sparrow-modeling-estimating-nutrient-sediment-and-dissolved</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>Lillian Gorman Sanisaca</origin>
+        <origin>Kenneth D Skinner</origin>
+        <origin>Molly A Maupin</origin>
+        <pubdate>2019</pubdate>
+        <title>Annual wastewater nutrient data preparation and load estimation using the Point Source Load Estimation Tool (PSLoadEsT)</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.3133/ofr20191025</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Lillian Gorman Sanisaca</origin>
+        <pubdate>2019</pubdate>
+        <title>Point Source Load Estimation Tool (PSLoadEsT)</title>
+        <geoform>application/service</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://my.usgs.gov/bitbucket/projects/PSLC</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Gregory E. Schwarz</origin>
+        <origin>Anne B. Hoos</origin>
+        <origin>Richard B. Alexander</origin>
+        <origin>Richard A. Smith</origin>
+        <pubdate>20060913</pubdate>
+        <title>The SPARROW Surface Water-Quality Model: Theory, Application and User Documentation</title>
+        <geoform>publication</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey Techniques and Methods</sername>
+          <issue>Book 6, Section B, Chapter 3</issue>
+        </serinfo>
+        <onlink>https://pubs.usgs.gov/tm/2006/tm6b3/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Kenneth D. Skinner</origin>
+        <origin>Molly A. Maupin</origin>
+        <pubdate>2019</pubdate>
+        <title>Point-source nutrient loads to streams of the conterminous United States, 2012</title>
+        <geoform>publication</geoform>
+        <pubinfo>
+          <pubplace>n/a</pubplace>
+          <publish>US Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.3133/ds1101</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Extensive efforts were made to check the accuracy of attributes in the dataset. However, flow and concentration input tables were too large to check completely and therefore users should exercise caution interpreting these values. The process steps include detailed information describing efforts to ensure the accuracy of the flow and concentration data and hence the load estimates. For example, the use of statistical Z-scores ((individual value - mean of all values) / standard deviation of all values) to identify outliers and replace them with mean values. Using Z-scores provided an automated way to deal with the outliers since the large size of the data prevents checking individual values. Also, utilizing the "no discharge" information to remove load estimates (see step 16).</attraccr>
+    </attracc>
+    <logic>The loads estimation program, PSLoadEst, used to calculate nutrient loads identifies duplicate values. The duplicate data issues were corrected as much as feasible but not every value could be corrected due to the large size of the datasets. PSLoadEst also identifies outliers. Flow values flagged as "&gt; 100 MGD" and "100*median" were evaluated for correctness. Erroneously low values were not identified or corrected. Facility descriptors such as SIC codes, major/minor status, and treatment levels (if a wastewater treatment facility) were evaluated for correctness and updated if necessary.</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>All horizontal coordinates were verified to represent a facility's outfall location to a stream either previously in Skinner and Wise (2019) or by the current authors of this data release. Often, the existing EPA ICIS-PCS derived coordinates represented the facility's main location or address. These locations were adjusted to represent the outfall location or location the facility discharges to a stream. Facility outfall locations were estimated using various imagery datasets via applications such as Google Earth or ESRI ArcGIS.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal vertical accuracy tests were conducted.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Protection Agency</origin>
+            <pubdate>2023</pubdate>
+            <title>EPA ECHO (Enforcement and Compliance History Online)</title>
+            <geoform>tabular digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>https://echo.epa.gov/tools/data-downloads#downloads</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>all input tables</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19991201</begdate>
+              <enddate>20201130</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>EPA NPDES</srccitea>
+        <srccontr>EPA NPDES ECHO data provide the input facility, flow, and nutrient concentration data used to calculate nutrient loads to streams.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>EPA</origin>
+            <pubdate>2023</pubdate>
+            <title>EPA ECHO (Enforcement and Compliance History Online) Custom Search</title>
+            <geoform>tabular digital data</geoform>
+            <onlink>https://echo.epa.gov/trends/loading-tool/get-data/custom-search</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20070101</begdate>
+              <enddate>20201130</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>EPA_DMR_Loading_Tool</srccitea>
+        <srccontr>EPA _DMR_Loading_Tool data provided missing flow and nutrient concentration data not obtained via EPA_NPDES. Data is used to calculate nutrient loads to streams.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>EPA</origin>
+            <pubdate>20160101</pubdate>
+            <title>EPA Clean Watersheds Needs Survey</title>
+            <geoform>tabular digital data</geoform>
+            <onlink>https://www.epa.gov/cwns</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20000101</begdate>
+              <enddate>20120101</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>EPA_CWNS</srccitea>
+        <srccontr>Used to determine the treatment level of wastewater treatment facilities.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Kenneth D. Skinner</origin>
+            <origin>Daniel Wise</origin>
+            <pubdate>2019</pubdate>
+            <title>Point-Source Nutrient Loads to Streams of the Conterminous United States, 2012</title>
+            <geoform>dataset</geoform>
+            <pubinfo>
+              <pubplace>https://www.sciencebase.gov</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.5066/p9pyvpft</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20120101</begdate>
+              <enddate>20121231</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>SkinnerWise_2019</srccitea>
+        <srccontr>Rubin TPC table</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Step 1.  The NPDES permit data was downloaded from EPA NPDES, formatted for use with PSLoadEst, evaluated for completeness and correctness, and then input to the USGS loads estimation program, PSLoadEst, to further evaluate the data and calculate monthly and annual total nitrogen and phosphorous loads.</procdesc>
+        <srcused>EPA NPDES</srcused>
+        <procdate>20220719</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 2.  EPA NPDES data were filtered for facility outfalls that discharge to a stream (monitoring location = 1), flow data equal to parameter code 50050, concentration data equal to total nitrogen (parameter code = 00600) and total phosphorus (parameter code = 00665). All facilities residing outside of the contiguous US (CONUS) were removed from the dataset. The data were then formatted for use with PSLoadEst with facility, flow, and concentration data in separate files and separated by year.</procdesc>
+        <srcused>EPA NPDES</srcused>
+        <procdate>20220801</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 3.  After identifying possible missing data from the initial EPA_NPDES data download, data were downloaded from EPA_DMR_Loading_Tool to attempt to fill in some of the missing data.  These data was filtered and formatted as described in step 2.</procdesc>
+        <srcused>EPA_DMR_Loading_Tool</srcused>
+        <procdate>20230330</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 4.  The facilities table was filtered to contain all facilities categorized as major dischargers and all minor dischargers that are wastewater treatment facilities (WWTF; SIC code = 4952). A facility is classified as a major discharger if on average it discharges a million gallons per day and a minor discharger less than this value. Although there are exceptions. WWTFs are some of the largest dischargers of nutrients to streams so additional effort was made to identify all facilities that functionally operate as a WWTF but may have a SIC code as something other than 4952. For example, this is common for college wastewater treatment plants with an educational SIC code. These facilities had their SIC code changed to 4952 to be evaluated with other WWTFs.</procdesc>
+        <procdate>20230401</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 5. WWTF treatment level was assigned to each WWTF. Preferentially, the EPA Clean Watershed Needs Survey (CWNS) self-reported treatment levels were assigned to facilities. If the facility did not report a treatment level, then biological oxygen demand (BOD), parameter 80082, was used to assign treatment level. Specifically, the following steps were used to apply a treatment level (in order of preference):
+a.  The EPA Clean Watershed Needs Survey (CWNS) includes self-reported treatment levels. WWTFs were assigned treatment levels from the CWNS in 2000, 2004, 2008, or 2012 as described in Skinner and Maupin (2019).
+b. If a WWTF did not report treatment levels to the CWNS, BOD was used to infer treatment level as listed here:
+Treatment level 1 (BOD &gt;45 mg/L), 
+Treatment level 1A (BOD 30-45), 
+Treatment level 2 (20-30),
+Treatment level 2A (&lt;20).</procdesc>
+        <srcused>EPA_CWNS</srcused>
+        <srcused>SkinnerWise_2019</srcused>
+        <procdate>20230407</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 6.  The NPDES flow data need to be in consistent units, in this case, million gallons per day (MGD). Flow data were converted to MGD if listed in other units.</procdesc>
+        <procdate>20230415</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 7.  The NPDES concentration data units also need to be consistent, in this case, milligrams per liter (mg/L). Concentration data were converted to mg/L if listed in other units.</procdesc>
+        <procdate>20230430</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 8.  The flow and concentration data were evaluated for entry errors as related to the minimum, average, and maximum concentration value attributes. 
+If the flow value for the reported minimum concentration was ever greater than the flow value for the reported average concentration, the flow values were swapped so the larger value represents the average concentration. 
+Similarly, concentration values were swapped if needed so the minimum, average, and maximum concentrations are entered into the appropriate fields. 
+Since PSLoadEst only uses concentration data in the average concentration attribute, if the average concentration attribute does not have a value, then the minimum or maximum concentration values are used, respectively.</procdesc>
+        <procdate>20230515</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 9. PSLoadEst was run through the data checking routine for each year. PSLoadEst automatically removes duplicate facility, flow, and concentration data if all attributes are identical between the two data entries. However, if one of the attributes differ, PSLoadEst is unable to resolve the duplication and requires user input. These instances occur when two different values exist in the attributes for flow or concentration for the same facility, outfall, and month combination. 
+If one of these duplicate entries exist, the following criteria in this order were used to select the proper duplicate value:
+a. The flow and concentration (DMR) tables “Limit Set” attribute was used to identify which duplicate value to keep. The flow or DMR table duplicates with a matching “Limit Set” value for the equivalent concentration or flow value within the DMR or flow table respectively is kept. The Limit Set refers to the permitted discharge limits of flow and concentration for each outfall.
+b. The number of occurrences (months) were summed where a value was reported in each Limit Set. The Limit Set with the most occurrences was used to pick the duplicate value for use.
+c. The duplicate concentration value was kept if a corresponding flow value exists for corresponding facility, outfall, month, and limit set combination.
+d. The data was compared to data from EPA_DMR_Loading_Tool for further verification. Occasionally, a duplicate flow or concentration value was present in the new data download whereas the other duplicate value was not present. In this case, the duplicate value that matched the new downloaded dataset was kept. 
+e. It was common for a facility to have the same duplicate errors in multiple years. A list was kept of the preferred duplicate conditions and used in subsequent years to select the preferred duplicate.
+f. Lastly, if the above processing steps could not determine which duplicate value to keep, the value closest to the median value for that facility and outfall combination was kept.</procdesc>
+        <procdate>20230615</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 10. PSLoadEst identifies potential high flow values compared to the computed annual median flow value for each facility and outfall. PSLoadEst flags high flow outliers using the following criteria:
+“highflow” = 10*medflow
+“highflow” = 100*medflow
+“highflow” = flow &gt; 100MGD 
+Due to the large nature of this dataset, only the 100*medflow and flow &gt; 100MGD were evaluated. Some 10*medflow values were evaluated and were correct. 
+Corrections to these identified flow values were done in the following order:
+a. If the flow value was flagged “flow &gt; 100 MGD” and the facility was designated as “Minor”, the flow value was divided by 1,000,000. By definition, a minor facility typically has flows less than 1 MGD. A common error is that these facilities report flows as gallons per day instead of MGD.
+b. If the facility was designated as “Major” and the flow value was greater than 1,500, it was divided by 1,000.
+c. All remaining flow values flagged “flow &gt; 100MGD” or “100*medflow” were manually inspected and corrected as necessary.
+d. The above process steps were conducted a single year at a time. It was common for a facility to report the same error in other years. Like processing step 9.e the manually corrected flow values were compiled and used to make corrections in subsequent years if the flow value had the same flags.</procdesc>
+        <procdate>20230715</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 11. After initial data filtering, checking, and corrections were applied, PSLoadEst was rerun to completion.</procdesc>
+        <procdate>20230801</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 12. PSLoadEst calculates Typical Pollutant Concentrations (TPCs) as described in Skinner and Maupin (2019). These TPCs are calculated for each facility type (SIC and treatment level; SIC_TL) using the median of measured concentrations for each SIC_TL for each year and geographic region (state, state plus each surrounding state [expansion group 1], and state plus two surrounding states [expansion group 2]). 
+New types of TPCs were calculated for this data release. These new TPCs are similar to the Skinner and Maupin (2019) TPCs but include all available years instead of one year. Also, a new TPC was created that is specific to each facility. These are based on measured concentrations at each facility from all years.
+The TPCs are used in the following order:
+Facility specific TPCs, median concentration derived from at least two concentrations:
+npdes, outfall, and month:  facility specific TPC derived from the median of all measured concentration values for each facility and outfall for the particular month from all available years.
+npdes outfall, and season:  facility specific TPC derived from the median of all measured concentration values for each facility and outfall for the particular season from all available years.
+npdes outfall, and year:  facility specific TPC derived from the median of all measured concentration values for the facility and outfall from all available years.
+npdes and month (all outfalls together):  facility specific TPC derived from the median of all measured concentration values for each facility and all outfalls for the particular month from all available years.
+npdes and season (all outfalls together):  facility specific TPC derived from the median of all measured concentration values for each facility and all outfalls for the particular season from all available years.
+npdes and year (all outfalls together):  facility specific TPC derived from the median of all measured concentration values for each facility and all outfalls from all available years.
+Skinner and Maupin, 2019 TPCs except using concentration data for all available years (1999 to 2020).
+FSSN or FSSP: TPC derived from all facilities of the same size (based on flow), type (SIC code plus treatment level), and season for each state and all years. 
+FSN or FSP:  TPC derived from all facilities of the same size (based on flow) and type (SIC code plus treatment level) for each state and all years.
+SN or SP: TPC derived from all facilities of the same type (SIC code plus treatment level) for each state and all years.
+Skinner and Maupin, 2019 TPCs
+flowsicsea:  TPC derived from all facilities of the same size (based on flow), type (SIC code plus treatment level), and season for each state and year of load calculation.
+flowsic:  TPC derived from all facilities of the same size (based on flow) and type (SIC code plus treatment level) for each state and year of load calculation.
+sic:  TPC derived from all facilities of the same type (SIC code plus treatment level) for each state and year of load calculation.
+TPC calculated by national median
+TPC from Rubin dataset from Skinner and Maupin, 2019</procdesc>
+        <srcused>SkinnerWise_2019</srcused>
+        <procdate>20230901</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 13. Statistical Z-scores were calculated for each flow and concentration value relative to the other months in the year and relative to the same month in other years. If the z-scores were both above 2 or both below -2 then the flow or concentration value was replaced by the average value for all available values for that specific outfall and facility.</procdesc>
+        <procdate>20240202</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 14. Typically, facilities classified as a Minor discharger do not have flow values greater than 1 MGD. If any remaining minor facilities had flow values greater than 1 MGD, the flows were reduced according to the following schema.
+Flow divided by 1,000,000 if the Minor facility has a flow greater than or equal to 10 MGD.
+Flow divided by 100 if the Minor facility has a flow greater than 2 MGD and less than 10 MGD.
+Flow divided by 10 if the Minor facility has a flow greater than 1 MGD and less than 2 MGD.</procdesc>
+        <procdate>20240301</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 15. Total nitrogen and phosphorus loads are recalculated using the final flow and concentration data.</procdesc>
+        <procdate>20240320</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Step 16. "No discharge" codes are utilized by facilities to describe why data may be missing for a month These "no discharge" codes were compared with the flow values to confirm the absence of flow data for that month. If a "no discharge" code of 2, 8, 9, A, or N then the load for that month is removed unless the concentration type is "original". If there is a "no discharge" code of 7, C, or F then the load for that month is removed unless the concentration type is "original" or "medsea". In these cases it is likely there is discharge since a concentration sample was able to be collected.</procdesc>
+        <procdate>20240501</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>EPA ICIS-NPDES, or PCS and updated/verified by SPARROW personnel.</indspref>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.00001</latres>
+        <longres>0.00001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS_1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Facilities_CONUS.csv</enttypl>
+        <enttypd>All major NPDES and minor wastewater facilities in the conterminous United States excluding power plants (SIC 4911) and water supply (SIC 4941).</enttypd>
+        <enttypds>EPA ICIS-PCS NPDES</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>NPDES</attrlabl>
+        <attrdef>The National Pollutant Discharge Elimination System nine-character code used to uniquely identify a permitted NPDES facility</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>National Pollutant Discharge Elimination System (NPDES)</codesetn>
+            <codesets>https://www.epa.gov/npdes-permits</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Latitude</attrlabl>
+        <attrdef>Facility's latitude (NAD83)</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES and updated/verified by producer</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>25.73306</rdommin>
+            <rdommax>48.977133183</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Longitude</attrlabl>
+        <attrdef>Facility's longitude (NAD83)</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES and updated/verified by producer</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-124.6625</rdommin>
+            <rdommax>-66.982966624</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Major</attrlabl>
+        <attrdef>Defines whether the facility is classified as a major or minor discharge facility.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Major</edomv>
+            <edomvd>Facility classified as a major discharger</edomvd>
+            <edomvds>EPA ICIS-PCS NPDES</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Minor</edomv>
+            <edomvd>Facility classified as a minor discharger</edomvd>
+            <edomvds>EPA ICIS-PCS NPDES</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FACILITY_NAME</attrlabl>
+        <attrdef>The primary name used to identify a facility in PCS or ICIS-NPDES.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USEPA Facility Search – Enforcement and Compliance Data</codesetn>
+            <codesets>https://echo.epa.gov/facilities/facility-search</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Permit_Name</attrlabl>
+        <attrdef>The permit name associated with a facility</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>blank or empty value</edomv>
+            <edomvd>no data provided from the source.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <codesetd>
+            <codesetn>EPA Facility Search – Enforcement and Compliance Data</codesetn>
+            <codesets>https://echo.epa.gov/facilities/facility-search</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION_ADDRESS</attrlabl>
+        <attrdef>The address for the facility.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>blank or empty value</edomv>
+            <edomvd>no data provided from the source.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USEPA Facility Search – Enforcement and Compliance Data</codesetn>
+            <codesets>https://echo.epa.gov/facilities/facility-search</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>City</attrlabl>
+        <attrdef>The facility's city.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>blank or empty value</edomv>
+            <edomvd>no data provided from the source.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USEPA Facility Search – Enforcement and Compliance Data</codesetn>
+            <codesets>https://echo.epa.gov/facilities/facility-search</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>The facility's state</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USEPA Facility Search – Enforcement and Compliance Data</codesetn>
+            <codesets>https://echo.epa.gov/facilities/facility-search</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZIP</attrlabl>
+        <attrdef>The ZIP code for the facility.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>blank or empty value</edomv>
+            <edomvd>no data provided from the source.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USEPA Facility Search – Enforcement and Compliance Data</codesetn>
+            <codesets>https://echo.epa.gov/facilities/facility-search</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sic_code_Tl</attrlabl>
+        <attrdef>The four-digit sic code combined with treatment level designation.</attrdef>
+        <attrdefs>producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>blank or empty value</edomv>
+            <edomvd>facility is not a wastewater treatment plant, so no treatment level indicated.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>This attribute is defined by the sic_code and treatment_level fields where the reported values are separated with an underscore.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sic_code</attrlabl>
+        <attrdef>The standard industrial classification four-digit code that describes the primary activity of the facility.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Standard Industrial Classification System</codesetn>
+            <codesets>https://www.osha.gov/pls/imis/sicsearch.html</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>treatment_level</attrlabl>
+        <attrdef>Wastewater treatment facility treatment level recoded from the USEPA Clean Watershed Needs Survey by "Point-Source Nutrient Loads to Streams of the Conterminous United States (2012)" and updates from this data release.</attrdef>
+        <attrdefs>Data Series Report link</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>primary treatment, effluent treatment by screening and sedimentation. The WWTP also has a 5-day biochemical oxygen demand (BOD5) concentration greater than 45 mg/L.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1A</edomv>
+            <edomvd>advanced primary treatment, effluent treatment whereby chemicals are used to further treat primary effluent and increase the amount of solid matter removed. The BOD5 concentration is greater than 30 but less than 45 mg/L.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>secondary treatment, effluent treatment including aeration and activated sludge. This is the minimum level of treatment required for publicly owned wastewater treatment facilities and requires minimum removal standards for BOD (less than or equal to 30 mg/l), total suspended solids, and pH.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2A</edomv>
+            <edomvd>Advanced treatment, effluent treatment producing a significant reduction in nonconventional or toxic pollutants and has a BOD less than or equal to 20 mg/l.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3P</edomv>
+            <edomvd>Advanced treatment for phosphorous, a WWTF with advanced treatment emphasizing phosphorous removal.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3N</edomv>
+            <edomvd>Advanced treatment for nitrogen, a WWTF with advanced treatment emphasizing the removal of nitrogen.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3NP</edomv>
+            <edomvd>Advanced treatment for nitrogen and phosphorous, a WWTF with advanced treatment emphasizing the removal of nitrogen and phosphorous.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>blank or empty value</edomv>
+            <edomvd>facility is not a wastewater treatment plant, so no treatment level indicated.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NHD_COMID</attrlabl>
+        <attrdef>The NHDPlus COMID from the stream segment the facility discharges.</attrdef>
+        <attrdefs>http://www.horizon-systems.com/nhdplus/</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>NHDPlusV2 Documentation</codesetn>
+            <codesets>http://www.horizon-systems.com/NHDPlus/NHDPlusV2_documentation.php/</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>eff_PerDate</attrlabl>
+        <attrdef>The current (as of 2023) NPDES permit effective date.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>blank or empty value</edomv>
+            <edomvd>no data provided from the source.</edomvd>
+            <edomvds>EPA ICIS-PCS NPDES</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>11/30/1982</rdommin>
+            <rdommax>7/5/2022</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>exp_PerDate</attrlabl>
+        <attrdef>The current (as of 2023) NPDES permit expiration date.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>blank or empty value</edomv>
+            <edomvd>no data provided from the source.</edomvd>
+            <edomvds>EPA ICIS-PCS NPDES</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>06/30/1987</rdommin>
+            <rdommax>5/31/2032</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>TNoutfall_moloads.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing the individual NPDES facility and outfall total nitrogen data, descriptors, and total nitrogen loads.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>npdes</attrlabl>
+        <attrdef>The National Pollutant Discharge Elimination System nine-character code used to uniquely identify a permitted NPDES facility</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>National Pollutant Discharge Elimination System (NPDES)</codesetn>
+            <codesets>https://www.epa.gov/npdes-permits</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>outfall</attrlabl>
+        <attrdef>Code that identifies the point of discharge (e.g., outfall) for a facility. A NPDES facility may have multiple points of discharge.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USEPA Custom Search – Enforcement and Compliance Data</codesetn>
+            <codesets>https://echo.epa.gov/trends/loading-tool/get-data/custom-search/</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year</attrlabl>
+        <attrdef>year of estimated total nitrogen load</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1999</rdommin>
+            <rdommax>2020</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>month</attrlabl>
+        <attrdef>month of estimated total nitrogen load</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>12</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>flow</attrlabl>
+        <attrdef>Monthly average discharge, million gallons per day.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2.00e-12</rdommin>
+            <rdommax>10396.8</rdommax>
+            <attrunit>million gallons per day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>typeTN</attrlabl>
+        <attrdef>The source of the total nitrogen concentration used in concTN.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>npdes month TN</edomv>
+            <edomvd>The facility specific TPC derived from the median of all measured total nitrogen concentration values for the facility for the particular month from all available years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>npdes outfall season TN</edomv>
+            <edomvd>The facility specific TPC derived from the median of all measured total nitrogen concentration values for the specified facility and outfall for the particular season from all available years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>npdes season TN</edomv>
+            <edomvd>The facility specific TPC derived from the median of all measured total nitrogen concentration values for the specified facility for the particular season from all available years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>npdes outfall month TN</edomv>
+            <edomvd>The facility specific TPC derived from the median of all measured total nitrogen concentration values for the specified facility and outfall for the particular month from all available years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>npdes outfall year TN</edomv>
+            <edomvd>The facility specific TPC derived from the median of all measured total nitrogen concentration values for the specified facility and outfall from all available years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>npdes year TN</edomv>
+            <edomvd>The facility specific TPC derived from the median of all measured total nitrogen concentration values for the specified facility from all available years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>flowsic</edomv>
+            <edomvd>TPC derived from all facilities of the same size (based on flow) and type (SIC code plus treatment level) for each state and year.</edomvd>
+            <edomvds>Skinner and Maupin, 2019</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sic</edomv>
+            <edomvd>TPC derived from all facilities of the same type (SIC code plus treatment level) for each state and year.</edomvd>
+            <edomvds>Skinner and Maupin, 2019</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>flowsicsea</edomv>
+            <edomvd>TPC derived from all facilities of the same size (based on flow), type (SIC code plus treatment level), and season for each state and year.</edomvd>
+            <edomvds>Skinner and Maupin, 2019</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TN_FSP</edomv>
+            <edomvd>TPC derived from all facilities of the same size (based on flow) and type (SIC code plus treatment level) for each state and all years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TN_SP</edomv>
+            <edomvd>TPC derived from all facilities of the same type (SIC code plus treatment level) for each state and all years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TN_FSSP</edomv>
+            <edomvd>TPC derived from all facilities of the same size (based on flow), type (SIC code plus treatment level), and season for each state and all years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>national</edomv>
+            <edomvd>TPC derived from all facilities of the same type (SIC code plus treatment level) for all CONUS states and all years.</edomvd>
+            <edomvds>Skinner and Maupin, 2019</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>original</edomv>
+            <edomvd>The measured total nitrogen concentration downloaded from USEPA ICIS-NPDES database</edomvd>
+            <edomvds>EPA ICIS-PCS NPDES</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>medsea</edomv>
+            <edomvd>The median season total nitrogen concentration calculated by Gorman Sanisaca, Skinner, and Maupin, 2019 from a single year's seasonal data.</edomvd>
+            <edomvds>Gorman Sanisaca, Skinner, and Maupin, 2019</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>tpc</edomv>
+            <edomvd>Provided typical pollutant concentration values from the “Rubin TPC table” from that data release.</edomvd>
+            <edomvds>SkinnerWise_2019</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>concTN</attrlabl>
+        <attrdef>Average monthly total nitrogen concentration in mg/L</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES or estimated from a TPC</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00001</rdommin>
+            <rdommax>830</rdommax>
+            <attrunit>milligrams per liter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>loadTN</attrlabl>
+        <attrdef>The calculated total nitrogen load.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.151397e-09</rdommin>
+            <rdommax>7990401</rdommax>
+            <attrunit>kilograms</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>TPoutfall_moloads.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing the individual NPDES facility and outfall total phosphorus data, descriptors, and total phosphorus loads.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>npdes</attrlabl>
+        <attrdef>The National Pollutant Discharge Elimination System nine-character code used to uniquely identify a permitted NPDES facility.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>National Pollutant Discharge Elimination System (NPDES)</codesetn>
+            <codesets>https://www.epa.gov/npdes-permits</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>outfall</attrlabl>
+        <attrdef>Code that identifies the point of discharge (e.g., outfall) for a facility. A NPDES facility may have multiple points of discharge.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USEPA Custom Search – Enforcement and Compliance Data</codesetn>
+            <codesets>https://echo.epa.gov/trends/loading-tool/get-data/custom-search/</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year</attrlabl>
+        <attrdef>year of estimated total nitrogen load</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1999</rdommin>
+            <rdommax>2020</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>month</attrlabl>
+        <attrdef>month of estimated total nitrogen load</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>12</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>flow</attrlabl>
+        <attrdef>Monthly average discharge from the outfall in million gallons per day</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2.00e-12</rdommin>
+            <rdommax>10396.8</rdommax>
+            <attrunit>million gallons per day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>typeTP</attrlabl>
+        <attrdef>The source of the total phosphorus concentration used in concTP.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>npdes month TP</edomv>
+            <edomvd>The facility specific TPC derived from the median of all measured total phosphorus concentration values for the facility for the particular month from all available years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>npdes outfall season TP</edomv>
+            <edomvd>The facility specific TPC derived from the median of all measured total phosphorus concentration values for the specified facility and outfall for the particular season from all available years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>npdes season TP</edomv>
+            <edomvd>The facility specific TPC derived from the median of all measured total phosphorus concentration values for the specified facility for the particular season from all available years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>npdes outfall month TP</edomv>
+            <edomvd>The facility specific TPC derived from the median of all measured total phosphorus concentration values for the specified facility and outfall for the particular month from all available years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>npdes outfall year TP</edomv>
+            <edomvd>The facility specific TPC derived from the median of all measured total phosphorus concentration values for the specified facility and outfall from all available years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>npdes year TP</edomv>
+            <edomvd>The facility specific TPC derived from the median of all measured total phosphorus concentration values for the specified facility from all available years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>flowsic</edomv>
+            <edomvd>TPC derived from all facilities of the same size (based on flow) and type (SIC code plus treatment level) for each state and year.</edomvd>
+            <edomvds>Skinner and Maupin, 2019</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sic</edomv>
+            <edomvd>TPC derived from all facilities of the same type (SIC code plus treatment level) for each state and year.</edomvd>
+            <edomvds>Skinner and Maupin, 2019</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>flowsicsea</edomv>
+            <edomvd>TPC derived from all facilities of the same size (based on flow), type (SIC code plus treatment level), and season for each state and year.</edomvd>
+            <edomvds>Skinner and Maupin, 2019</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TP_FSP</edomv>
+            <edomvd>TPC derived from all facilities of the same size (based on flow) and type (SIC code plus treatment level) for each state and all years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TP_SP</edomv>
+            <edomvd>TPC derived from all facilities of the same type (SIC code plus treatment level) for each state and all years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TP_FSSP</edomv>
+            <edomvd>TPC derived from all facilities of the same size (based on flow), type (SIC code plus treatment level), and season for each state and all years.</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>national</edomv>
+            <edomvd>TPC derived from all facilities of the same type (SIC code plus treatment level) for all CONUS states and all years.</edomvd>
+            <edomvds>Skinner and Maupin, 2019</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>original</edomv>
+            <edomvd>The measured total phosphorus concentration downloaded from USEPA ICIS-NPDES database</edomvd>
+            <edomvds>EPA ICIS-PCS NPDES</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>medsea</edomv>
+            <edomvd>The median season total phosphorus concentration calculated by Gorman Sanisaca, Skinner, and Maupin, 2019 from a single year's seasonal data.</edomvd>
+            <edomvds>Gorman Sanisaca, Skinner, and Maupin, 2019</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>tpc</edomv>
+            <edomvd>Provided typical pollutant concentration values from the “Rubin TPC table” from that data release.</edomvd>
+            <edomvds>SkinnerWise_2019</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>concTP</attrlabl>
+        <attrdef>Average monthly total phosphorus concentration</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES or estimated from a TPC</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.000e-7</rdommin>
+            <rdommax>292.3</rdommax>
+            <attrunit>milligrams per liter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>loadTP</attrlabl>
+        <attrdef>The calculated total phosphorus load.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>5.320574e-10</rdommin>
+            <rdommax>2662747.5</rdommax>
+            <attrunit>kilograms</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>TNyrloads.csv</enttypl>
+        <enttypd>Compressed (zipped) comma Separated Value (CSV) file containing the calculated total nitrogen loads to streams for the specified year and NPDES facility.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>npdes</attrlabl>
+        <attrdef>The National Pollutant Discharge Elimination System nine-character code used to uniquely identify a permitted NPDES facility</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>National Pollutant Discharge Elimination System (NPDES)</codesetn>
+            <codesets>https://www.epa.gov/npdes-permits</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year</attrlabl>
+        <attrdef>Year of total nitrogen or total phosphorus estimation</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1999</rdommin>
+            <rdommax>2020</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>loadTN</attrlabl>
+        <attrdef>The calculated total nitrogen load in kilograms.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>2.342849e-08</rdommin>
+            <rdommax>40417791</rdommax>
+            <attrunit>kilograms</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>TPyrloads.csv</enttypl>
+        <enttypd>Compressed (zipped) comma Separated Value (CSV) file containing the calculated total phosphorus loads to streams for the specified year and NPDES facility.</enttypd>
+        <enttypds>Producer Defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>npdes</attrlabl>
+        <attrdef>The National Pollutant Discharge Elimination System nine-character code used to uniquely identify a permitted NPDES facility</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>National Pollutant Discharge Elimination System (NPDES)</codesetn>
+            <codesets>https://www.epa.gov/npdes-permits</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>year</attrlabl>
+        <attrdef>Year of total nitrogen or total phosphorus estimation</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1999</rdommin>
+            <rdommax>2020</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>loadTP</attrlabl>
+        <attrdef>The calculated total phosphorus load in kilograms.</attrdef>
+        <attrdefs>Producer Defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>8.246890e-09</rdommin>
+            <rdommax>5044762.1</rdommax>
+            <attrunit>kilograms</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>FLOW_NODI_Code.csv</enttypl>
+        <enttypd>Comma Separated Value (CSV) file containing no discharge codes for months with known no discharge.</enttypd>
+        <enttypds>EPA ICIS-PCS NPDES</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>NPDES</attrlabl>
+        <attrdef>The National Pollutant Discharge Elimination System nine-character code used to uniquely identify a permitted NPDES facility</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>National Pollutant Discharge Elimination System (NPDES)</codesetn>
+            <codesets>https://www.epa.gov/npdes-permits</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Outfall</attrlabl>
+        <attrdef>Code that identifies the point of discharge (e.g., outfall) for a facility. A NPDES facility may have multiple points of discharge.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>National Pollutant Discharge Elimination System (NPDES)</codesetn>
+            <codesets>https://www.epa.gov/npdes-permits</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>date</attrlabl>
+        <attrdef>Date of discharge.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>01/31/1999</rdommin>
+            <rdommax>12/31/2020</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NODI_Code</attrlabl>
+        <attrdef>Code describing why no flow was recorded for that month.</attrdef>
+        <attrdefs>EPA ICIS-PCS NPDES, https://www.epa.gov/system/files/documents/2022-10/EPA%20DMR%20NODI%20CODES.pdf</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>No discharge</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Facility operation shutdown</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Conditional monitoring - not required this period</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Other</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>Insufficient flow for sampling</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>General permit exemption</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>No influent</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Facility not constructed</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>These files list the input data, calculated typical pollutant concentrations (TPCs), flow no discharge codes, and output total nitrogen and total phosphorus loads.</eaover>
+      <eadetcit>Datasets use data tables from SkinnerWise_2019 and methods from Skinner and Maupin, 2019.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data for other purposes, nor on all computer systems, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/catalog/item/658c8545d34e3265ab1454cd</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none.</fees>
+    </stdorder>
+    <techpreq>There are no technical prerequisites to view or edit the comma-delimited text files.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20240917</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Kenneth D Skinner</cntper>
+          <cntorg>NORTHWEST REGION</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Mail Stop 939, 230 Collins Road</address>
+          <city>Boise</city>
+          <state>ID</state>
+          <postal>83702</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>208-387-1343</cntvoice>
+        <cntemail>kskinner@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>
